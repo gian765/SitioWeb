@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+    <h1>Bazar del Hogar</h1>
+    <nav class="menu">
+        <div class="menu-contenedor">
+            <ul class="menu-lex">
+                <li><a href="./">Inicio</a></li>
+                <li><a href="./nosotros.html">nosotros</a></li>
+                <li><a href="./productos.html">productos</a></li>
+            </ul>
+        </div> 
+    </nav>
+    <h1>Productos</h1>
+    <p>Estos son los articulos disponibles por el momento:</p>
+</header>
+     <main>
+        <section id="ofertas">
+            <h2>Ofertas Especiales</h2>
+            <table>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/producto 4.jpg" class="producto4" alt=""></td>
+                    <td>Juego de Cocina</td>
+                    <td>Completo set de utensilios de cocina.</td>
+                    <td>6.000$</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/producto 1.jpg" class="producto1" alt=""></td>
+                    <td>plato</td>
+                    <td>plato negro c/u.</td>
+                    <td>8.000$</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/producto 2.jpg" class="producto2" alt=""></td>
+                    <td>plato</td>
+                    <td>plato blanco c/u.</td>
+                    <td>7.000$</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/producto 3.jpg" class="producto3" alt=""></td>
+                    <td>vasos</td>
+                    <td>vasos transparentes c/u.</td>
+                    <td>6.000$</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Selecciona tus Ofertas</h2>
+            <form action="#" method="post"> 
+                <label for="producto1">
+                    <input type="checkbox" id="producto1" name="producto" value="Juego de Cocina">
+                    Juego de Cocina
+                </label><br>
+                <label for="producto2">
+                    <input type="checkbox" id="producto2" name="producto" value="plato">
+                    plato negro
+                </label><br>
+                <label for="producto3">
+                    <input type="checkbox" id="producto3" name="producto" value="plato">
+                    plato blanco
+                </label><br>
+                <label for="producto4">
+                    <input type="checkbox" id="producto4" name="producto" value="vasos">
+                    vasos transparentes
+                </label><br><br>
+
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contactanos: info@bazardelhogar.com</p>
+        <p>&copy; 2024 Bazar del Hogar</p>
+    </footer>
+</body>
+</html>

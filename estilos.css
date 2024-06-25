@@ -1,0 +1,98 @@
+/*fotos*/
+.producto1{
+    width: 200px;
+
+}
+.producto2{
+    width: 200px;
+    
+}
+.producto3{
+    width: 200px;
+    
+}
+.producto4{
+    width: 200px;
+    
+}
+.bazar  {
+    width: 350px;
+    height: 350px;
+}
+.momo {
+    width: 300px;
+}
+/*body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/*header*/
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+/*listas*/
+ul li a{
+    color: green;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+/*main*/
+main {
+    padding: 1em;
+}
+
+main section {
+    margin: 2em 0;
+}
+/*table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/*"seleccion de oferta" interactiva*/
+form {
+    margin: 2em 0;
+}
+/*comentarios*/
+textarea {
+    width: 40%;
+    padding: 0.5em;
+}
+/*pie de pagina*/
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    width: 40%;
+    bottom: 0;
+}
+.listas {
+    color: green;
+}
